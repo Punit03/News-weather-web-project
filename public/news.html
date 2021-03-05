@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link href="news.css" rel="stylesheet" />
+
+    <!--font for headlines-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    
+    <title>News</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navdesign">
+          <li class="nav-item ">
+            <a class="nav-link" href="#"
+              >LiveWebs <span class="sr-only"></span></a
+            >
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only"></span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/sport"
+              >Sports <span class="sr-only"></span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/weather"
+              >Weather <span class="sr-only"></span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div id="indent">
+        <p id="intro">Welcome to LiveWebs</p>
+        <p id="date"></p>
+      
+
+      <!--Trending News-->
+      <a id="link" href="" target="_blank" style="text-decoration: none">
+        <div id="first_left" class="clear_float">
+          <div class="heading">
+            <h3 id="text"></h3>
+          </div>
+        </div>
+      </a>
+
+      <a id="link1" href="" target="_blank" style="text-decoration: none">
+        <div class="right_box" id="image1">
+          <h6 class="toptext" id="text1" ></h6>
+        </div>
+      </a>
+
+      <a id="link2" href="" target="_blank" style="text-decoration: none">
+        <div class="right_box" id="image2">
+          <h6 class="toptext" id="text2" ></h6>
+        </div>
+      </a>
+
+      <a id="link3" href="" target="_blank" style="text-decoration: none">
+        <div class="right_box" id="image3">
+          <h6 class="toptext" id="text3" ></h6>
+        </div>
+      </a>
+
+      <a id="link4" href="" target="_blank" style="text-decoration: none">
+        <div class="right_box" id="image4">
+          <h6 class="toptext" id="text4" ></h6>
+        </div>
+      </a>
+
+      <!--Top Stories-->
+      <p class="clear_float topic" >| Big Story</p>
+      <section class="top_stories" id="story">
+        <a id="links1" href="" target="_blank" style="text-decoration: none">
+            <div class="card" >
+                <img src="images/background.jpg" class="image" id="imgs1">
+                <p id="desps1" class="para"></p>
+            </div>
+        </a>
+
+        <a id="links2" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgs2">
+                <p id="desps2" class="para"></p>
+            </div>
+        </a>
+
+        <a id="links3" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgs3">
+                <p id="desps3" class="para"></p>
+            </div>
+        </a>
+
+        <a id="links4" href="" target="_blank" style="text-decoration: none">
+          <div class="card">
+              <img src="images/background.jpg" class="image" id="imgs4">
+              <p id="desps4" class="para"></p>
+          </div>
+        </a>
+      </section>
+
+      <!--Technology-->
+      <p class="clear_float topic" >| Technology</p>
+      <section class="top_stories" id="technology">
+        <a id="linkt1" href="" target="_blank" style="text-decoration: none">
+            <div class="card" >
+                <img src="images/background.jpg" class="image" id="imgt1">
+                <p id="despt1" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkt2" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgt2">
+                <p id="despt2" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkt3" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgt3">
+                <p id="despt3" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkt4" href="" target="_blank" style="text-decoration: none">
+          <div class="card">
+              <img src="images/background.jpg" class="image" id="imgt4">
+              <p id="despt4" class="para"></p>
+          </div>
+      </a>
+      </section>
+      
+      <!--Entertainment-->
+      <p class="clear_float topic" >| Entertainment</p>
+      <section class="top_stories" id="entertainment">
+        <a id="linke1" href="" target="_blank" style="text-decoration: none">
+            <div class="card" >
+                <img src="images/background.jpg" class="image" id="imge1">
+                <p id="despe1" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linke2" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imge2">
+                <p id="despe2" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linke3" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imge3">
+                <p id="despe3" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linke4" href="" target="_blank" style="text-decoration: none">
+          <div class="card">
+              <img src="images/background.jpg" class="image" id="imge4">
+              <p id="despe4" class="para"></p>
+          </div>
+      </a>
+
+      </section>
+
+      <!--Health-->
+      <p class="clear_float topic" >| Health</p>
+      <section class="top_stories" id="health">
+        <a id="linkh1" href="" target="_blank" style="text-decoration: none">
+            <div class="card" >
+                <img src="images/background.jpg" class="image" id="imgh1">
+                <p id="desph1" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkh2" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgh2">
+                <p id="desph2" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkh3" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgh3">
+                <p id="desph3" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkh4" href="" target="_blank" style="text-decoration: none">
+          <div class="card">
+              <img src="images/background.jpg" class="image" id="imgh4">
+              <p id="desph4" class="para"></p>
+          </div>
+      </a>
+
+      </section>
+
+      <!--Business-->
+      <p class="clear_float topic" >| Business</p>
+      <section class="top_stories" id="business">
+        <a id="linkb1" href="" target="_blank" style="text-decoration: none">
+            <div class="card" >
+                <img src="images/background.jpg" class="image" id="imgb1">
+                <p id="despb1" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkb2" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgb2">
+                <p id="despb2" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkb3" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgb3">
+                <p id="despb3" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkb4" href="" target="_blank" style="text-decoration: none">
+          <div class="card">
+              <img src="images/background.jpg" class="image" id="imgb4">
+              <p id="despb4" class="para"></p>
+          </div>
+      </a>
+
+      </section>
+
+      <!-- Science -->
+      <p class="clear_float topic" >| Science</p>
+      <section class="top_stories" id="science">
+        <a id="linkc1" href="" target="_blank" style="text-decoration: none">
+            <div class="card" >
+                <img src="images/background.jpg" class="image" id="imgc1">
+                <p id="despc1" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkc2" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgc2">
+                <p id="despc2" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkc3" href="" target="_blank" style="text-decoration: none">
+            <div class="card">
+                <img src="images/background.jpg" class="image" id="imgc3">
+                <p id="despc3" class="para"></p>
+            </div>
+        </a>
+
+        <a id="linkc4" href="" target="_blank" style="text-decoration: none">
+          <div class="card">
+              <img src="images/background.jpg" class="image" id="imgc4">
+              <p id="despc4" class="para"></p>
+          </div>
+      </a>
+
+      </section>
+
+      <footer>
+        <p> © Copyright LiveWebs. All Rights Reserved</p>
+        <p>Designed by Punit Sinha</p>
+      </footer>
+
+    </div> 
+    
+    <script src="news.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>

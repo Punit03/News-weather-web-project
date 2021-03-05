@@ -1,0 +1,67 @@
+#indent{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#first_left{
+    width:0vh;
+}
+
+#text{
+    font-size: 0px;
+}
+
+#intro{
+    width: 100%;
+    text-align: center;
+}
+
+#date{
+    width: 100%;
+    text-align: center;
+}
+
+.right_box{
+    width: 50vh;
+    height: 60vh;
+    margin-left:12%;
+    margin-bottom: 5%;
+    
+}
+
+section{
+    flex-direction: column;
+    
+}
+
+.card{
+    align-items: center;
+    width: fit-content; 
+    margin: auto;
+    margin-bottom: 1.5rem;   
+}
+
+#story{
+
+    background-image: none;
+}
+
+#technology{
+    background-image: none;
+}
+
+#entertainment{
+    background-image: none;
+}
+
+#health{
+    background-image: none;
+}
+
+#business{
+    background-image: none;
+}
+
+#science{
+    background-image: none;
+}
